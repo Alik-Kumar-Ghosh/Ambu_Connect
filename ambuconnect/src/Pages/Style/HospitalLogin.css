@@ -1,0 +1,26 @@
+#login-main {
+  padding: 1rem 3rem;
+  display: flex;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 65%;
+  width: 100%;
+  height: auto;
+  box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+  background-color: #ecf7ff;
+}
+#login-h2 {
+  white-space: nowrap;
+  display: inline-block; /* Ensures the "Ambulance Login" text and the image are displayed on the same line */
+  vertical-align: middle;
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.login {
+  margin-top: 0.5rem;
+}

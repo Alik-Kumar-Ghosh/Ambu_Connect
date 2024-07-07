@@ -1,0 +1,124 @@
+.hdas-container {
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+ 
+}
+.hdas-container .das-h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-top: -1rem;
+  height: auto;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  margin-left: 40%;
+  margin-right: 60%;
+}
+.hdas-container .hdas-menu {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 40%;
+  margin-right: 60%;
+}
+.hmenu-opt2 {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-color: #ecf7ff;
+  height: 150px;
+  box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+  width: 400x;
+   margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.ava-beds {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.hmenu-opt2 h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.hmenu-opt2 p {
+  background-color: white;
+  padding-top: 0.4rem !important;
+  padding: 0.2rem 1.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: 700;
+}
+.hmenu-opt2 .meter {
+  margin-top: 1rem;
+border: none;
+outline: none;
+background: none;
+}
+.hmenu-opt1 .m {
+    text-decoration:none;
+  color: black;
+  }
+.update-btn {
+  padding: 0.5rem 1rem;
+  box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+}
+.update-btn:hover {
+  padding: 0.5rem 1rem;
+}
+.hmenu-opt1 {
+  font-weight: 700;
+}
+.menu-opt {
+  text-align: center;
+  padding: 2rem 3.5rem;
+  display: grid;
+}
+@media (max-width: 800px) {
+  .hdas-container .hdas-menu {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+  }
+}
+@media (max-width: 600px) {
+  .hdas-container .das-h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-left: 0%;
+    margin-right: 99%;
+  }
+  .hdas-container .hdas-menu {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    margin-left: 3% !important;
+  }
+  .hmenu-opt2 {
+    margin-top: 2rem;
+    border-radius: 25px;
+    background-color: #ecf7ff;
+    height: 224px;
+    box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    width: 341px;
+  }
+  .hmenu-opt1 .m {
+    font-weight: 700;
+
+    margin-left: -4rem;
+  }
+}

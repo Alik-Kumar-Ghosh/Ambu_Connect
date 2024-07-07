@@ -1,0 +1,36 @@
+.plabel {
+  text-align: left !important;
+  padding-left: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+.np-input {
+  background-color: white !important;
+  border: 1px solid transparent !important;
+  margin-bottom: 1rem !important;
+}
+
+.chosp {
+  list-style-type: none;
+}
+.ulcss {
+  background-color: azure;
+  box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  #login-main {
+    margin-top: -2rem;
+    padding: 1rem 3rem !important;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50% !important;
+    margin-right: 50% !important;
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+    background-color: #ecf7ff;
+  }
+}

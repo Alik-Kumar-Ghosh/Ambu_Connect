@@ -1,0 +1,55 @@
+.hparent {
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+}
+.hsignup-container {
+  display: grid;
+  margin-left: 35%;
+  margin-right: 65%;
+  padding: 1.5rem 5rem;
+  box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+  background-color: #ecf7ff;
+  border-radius: 25px;
+  margin-top: -4.5rem;
+}
+.hinput {
+  border: 1px solid transparent !important;
+  padding: 0.4rem;
+}
+#login-h {
+  padding-bottom: 1.5rem !important;
+  white-space: nowrap;
+  display: inline-block; /* Ensures the "Ambulance Login" text and the image are displayed on the same line */
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.hlabel {
+  padding: 0.5rem 0rem;
+  font-weight: 500;
+}
+.hlogin {
+  margin-top: 1.5rem !important;
+  margin-bottom: 0rem !important;
+}
+.hlogin:hover {
+  border-radius: 500px;
+  background-color: #fdc021;
+  font-weight: 700;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin-bottom: 0.5rem !important;
+}
+@media (max-width: 600px) {
+  .hsignup-container {
+    display: grid;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 1.5rem 5rem;
+    box-shadow: 4px 8px 15px hsl(0deg 0% 0% / 0.38);
+    background-color: #ecf7ff;
+    border-radius: 25px;
+    /* margin-top: -4.5rem; */
+  }
+}
