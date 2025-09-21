@@ -50,7 +50,11 @@ Live Site : [https://ambuconnect.vercel.app/](https://ambuconnect.vercel.app/)
 • Description: Vercel is a platform for frontend developers, providing the best experience to deploy, manage, and scale modern web applications. <br>
 
 ---
- 
+
+### Figma Design 
+•  [Figma Design](https://www.figma.com/design/4whHyDUHfF8vXrzooNxoLu/AmbuPulse--Copy-?node-id=9-2&t=u4Aw80ib6qg1YIL7-1)
+
+---
  
  ### Architecture diagram 
 
